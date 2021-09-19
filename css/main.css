@@ -1,0 +1,33 @@
+h1, h2, ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img { 
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+header, footer {
+    background: purple;
+    text-align: center;
+    border: 2px solid purple;
+    border-radius: 5px;
+    color: white;
+}
+header, main, footer {
+    max-width: 750px;
+}
+footer {
+    height: 50px;
+    padding-top: 10px;
+}
+.border {
+    border-style: solid;
+}
+h2 {
+    border-bottom-style:solid;
+    border-width: 1px;
+    
+}
+.grid {
+    grid-template-columns: 1fr 1fr;
+}
