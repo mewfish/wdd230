@@ -1,4 +1,4 @@
-h1, h2, ul {
+h2, ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 header img { 
@@ -7,11 +7,11 @@ header img {
     padding-right: 10px;
 }
 header, footer {
-    background: purple;
+    background: gold;
     text-align: center;
-    border: 2px solid purple;
+    border: 2px solid gold;
     border-radius: 5px;
-    color: white;
+    color: purple;
 }
 header, main, footer {
     max-width: 750px;
@@ -23,11 +23,14 @@ footer {
 .border {
     border-style: solid;
 }
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    margin: .15rem;
+}
 h2 {
     border-bottom-style:solid;
     border-width: 1px;
-    
-}
-.grid {
-    grid-template-columns: 1fr 1fr;
+    margin-right: 13px;
+    font-size: 1rem;
 }
