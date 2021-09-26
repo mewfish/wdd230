@@ -11,6 +11,7 @@ header, footer {
     border: 2px solid gold;
     border-radius: 5px;
     color: purple;
+    grid-column-end: 2;
 }
 header, main, footer {
     max-width: 750px;
@@ -23,7 +24,7 @@ footer {
     border-style: solid;
 }
 h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Heebo', sans-serif;
     font-size: 1.5rem;
     margin: .15rem;
 }
@@ -32,4 +33,34 @@ h2 {
     border-width: 1px;
     margin-right: 13px;
     font-size: .7rem;
+}
+h3 {
+    font-family: 'Heebo', sans-serif;
+    background-color: purple;
+    color: white;
+}
+p {
+    font-family: 'Heebo', sans-serif;
+    padding: 20px;
+}
+a {
+    font-family: 'Heebo', sans-serif;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section {
+    background-color: rgb(233, 227, 244);
+}
+.cyprus  {
+grid-column-end: 3;
+}
+.ksl {
+grid-column-end: 2;
+margin-right: 40px;
+}
+.comics {
+grid-column-end: 1;
+margin-right: 40px;
 }
