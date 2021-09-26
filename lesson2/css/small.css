@@ -13,12 +13,18 @@ header, footer {
     color: purple;
     grid-column-end: 2;
 }
-header, main, footer {
+/* header, main, footer {
     max-width: 750px;
+    
+} */
+header {
+    display: flex;
+    width: 100%;
 }
 footer {
     height: 50px;
     padding-top: 10px;
+    width: 100%;
 }
 .border {
     border-style: solid;
@@ -47,20 +53,33 @@ a {
     font-family: 'Heebo', sans-serif;
 }
 main {
-    display: grid;
-    grid-template-columns: 1fr;
+     /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    margin: 30px;
+
 }
 section {
     background-color: rgb(233, 227, 244);
 }
 .cyprus  {
-grid-column-end: 3;
+    margin: 10px;
+    margin-right: 10px;
 }
 .ksl {
-grid-column-end: 2;
-margin-right: 40px;
+    margin: 10px;
 }
 .comics {
-grid-column-end: 1;
-margin-right: 40px;
+    margin: 10px;
+}
+.bigbox {
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr; 
+    width: 100%;
+    margin-right: 40px;
+    grid-template-areas: 40px;
+}
+body {
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
