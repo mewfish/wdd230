@@ -44,6 +44,8 @@ h3 {
     font-family: 'Heebo', sans-serif;
     background-color: purple;
     color: white;
+    height: 40px; 
+    padding-top: 20px;
 }
 p {
     font-family: 'Heebo', sans-serif;
@@ -61,15 +63,9 @@ main {
 section {
     background-color: rgb(233, 227, 244);
 }
-.cyprus  {
+.all {
     margin: 10px;
-    margin-right: 10px;
-}
-.ksl {
-    margin: 10px;
-}
-.comics {
-    margin: 10px;
+    text-align: center;
 }
 .bigbox {
     display: grid;
