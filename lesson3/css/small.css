@@ -1,8 +1,11 @@
 h1 {
-    color: hotpink;
+    color: #b53389;
     font-family: 'Permanent Marker', serif;
     font-size: 60px;
     background-color: #FCD299;
+}
+header {
+    display: flex; 
 }
 h2 {
     font-family: 'Permanent Marker', serif;
@@ -20,18 +23,28 @@ ol {
 nav {
     background-color: #FCD299;
     height: 50px;
+    font-size: 20px;
 }
 nav ul { 
     display: flex; 
+    list-style-type: none;
     
 }
 nav ul li { 
     flex: 1 1 100%; 
     padding: 15px;
+    display: block;
 }
 footer{
     background-color: #FCD299;
+    display: flex; 
+    font-family: 'Barlow', sans-serif;
+    height: 40px;
+    padding: 20px;
 }
 body {
     background-color: #a7dfa7;
+}
+a {
+    font-family: 'Barlow', sans-serif;
 }
