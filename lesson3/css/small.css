@@ -1,15 +1,23 @@
 h1 {
     color: #ffb6c1;
     font-family: 'Permanent Marker', serif;
+    font-size: 60px;
 }
 h2 {
     font-family: 'Permanent Marker', serif;
+    font-size: 30px;
 }
 p {
     font-family: 'Barlow', sans-serif;
     color: #565656;
+    font-size: 20px;
 }
 ol {
     font-family: 'Barlow', sans-serif;
     color: #565656;
+}
+nav ul { display: flex; 
+}
+nav ul li { 
+    flex: 1 1 100%; 
 }
