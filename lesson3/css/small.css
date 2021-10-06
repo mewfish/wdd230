@@ -22,13 +22,12 @@ ol {
 }
 nav {
     background-color: #FCD299;
-    height: 50px;
     font-size: 20px;
 }
 nav ul { 
     display: flex; 
     list-style-type: none;
-    
+    flex-direction: column;
 }
 nav ul li { 
     flex: 1 1 100%; 
@@ -47,4 +46,9 @@ body {
 }
 a {
     font-family: 'Barlow', sans-serif;
+}
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+
 }
