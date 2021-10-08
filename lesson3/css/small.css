@@ -43,6 +43,8 @@ footer{
 }
 body {
     background-color: #a7dfa7;
+    max-width: 800px;
+    margin: auto;
 }
 a {
     font-family: 'Barlow', sans-serif;
