@@ -22,4 +22,12 @@ footer{
 nav, ul {
     background-color: #FCD299;
     font-family: 'Barlow', sans-serif;
+    display: flex; 
+    list-style-type: none;
+    flex-direction: column;
+}
+nav ul li { 
+    flex: 1 1 100%; 
+    padding: 15px;
+    display: block;
 }
