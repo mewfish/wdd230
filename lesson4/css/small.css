@@ -1,0 +1,25 @@
+h1, h2, h3 {
+    font-family: 'Permanent Marker', serif;
+    color: #b53389;
+}
+p {
+    font-family: 'Barlow', sans-serif;
+    color: #565656;
+    font-size: 20px;
+}
+body {
+    background-color: #a7dfa7;
+    max-width: 800px;
+    margin: auto;
+}
+footer{
+    background-color: #FCD299;
+    display: flex; 
+    font-family: 'Barlow', sans-serif;
+    height: 40px;
+    padding: 20px;
+}
+nav, ul {
+    background-color: #FCD299;
+    font-family: 'Barlow', sans-serif;
+}
