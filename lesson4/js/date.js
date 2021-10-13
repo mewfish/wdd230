@@ -1,6 +1,15 @@
-// let dt = new Date();
-// document.getElementById("date").innerHTML = dt.toLocaleDateString();
-options.timeZone = 'UTC';
-options.timeZoneName = 'short';
-console.log(date.toLocaleDateString('en-US', options));
-// → "Thursday, December 20, 2012, UTC"
+window.onload = function() {
+    let dayNames = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
+    let today = new Date();
+    let dayName = dayNames[today.getDay()];
+    let monthName = months[today.getMonth()];
+    let formattedDate = dayName + ", " + today.getDate() + " " + monthName + " "  + today.getFullYear();
+  
+    let todayTag = document.querySelector("#today");
+    todayTag.innerHTML = formattedDate;
+  }
+  
+  
+  
+  
