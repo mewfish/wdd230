@@ -41,3 +41,34 @@ header img {
 	width: 80px;
 	height: auto;
 }
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #FCD299;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+.responsive li {
+	display: block;
+}
