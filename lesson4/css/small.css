@@ -9,8 +9,8 @@ p {
 }
 body {
     background-color: #a7dfa7;
-    max-width: 800px;
-    margin: auto;
+    margin: 0; 
+    padding: 0; 
 }
 footer{
     background-color: #FCD299;
@@ -36,6 +36,7 @@ header {
 	display: flex;
 	align-items:center;
 	justify-content:center;
+    max-width: auto;
 }
 header img {
 	width: 80px;
@@ -43,7 +44,6 @@ header img {
 }
 nav {
     margin: 0 auto;
-    max-width: 760px;
     background-color: #FCD299;
 }
 .navigation {
