@@ -84,10 +84,6 @@ nav {
 #bannerbox {
     position: relative;
 }
-#weekdays {
-    display: flex;
-    flex-direction: column;
-}
 #cabinpic {
     float: right;
     margin-left: 0.5em;
