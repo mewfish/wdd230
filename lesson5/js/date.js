@@ -26,5 +26,9 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
   classList property - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
   */
   
+  const date = new Date();
+  if (date.getDay() == 5) {
+  document.getElementById("banner").classList.toggle("hide");
+}
   
   
